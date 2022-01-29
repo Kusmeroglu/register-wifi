@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 24px;
 }
 
 a {
@@ -13,4 +14,23 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+}
+
+/* https://paletton.com/#uid=13k0u0kwi++bu++hX++++rd++kX */
+:root {
+  --themeColor: #03EAFF;
+  --themeHighlight: #E2F9FB;
+  --themeDark: #005D66;
+  --borderRadius: 3px;
+}
+
+/* https://paletton.com/#uid=1550u0kw0w0jyC+oRxVy4oIDfjr */
+[data-theme='pink'] {
+  --themeColor: #C30083;
+  --themeHighlight: #FFA4E1;
+  --themeDark: #800056;
 }

@@ -1,0 +1,34 @@
+.wifiDetails {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  border: solid 1px #000000;
+  border-radius: var(--borderRadius);
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 1rem;
+}
+
+.selected {
+  background-color: var(--themeHighlight);
+  border-color: var(--themeDark);
+}
+
+.wifiDetails>.title {
+  flex-grow: 1;
+  text-align: left;
+  padding-right: 2rem;
+  vertical-align: center;
+}
+
+.good {
+}
+
+.fair>:nth-child(1) {
+  display: none;
+}
+
+.poor>:nth-child(1),.poor>:nth-child(2) {
+  display: none;
+}

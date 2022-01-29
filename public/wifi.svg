@@ -1,0 +1,6 @@
+<svg version="1.1" viewBox="0 0 24 24" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <path class="wifiThree" d="M1.394 9.393C7.251 3.536 16.749 3.536 22.607 9.393" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path class="wifiTwo" d="M4.93 12.929C8.834 9.024 15.166 9.024 19.071 12.929" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path class="wifiOne" d="M8.111 16.404C10.2589 14.2562 13.7411 14.2562 15.889 16.404" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M12 20L12.01 20" fill="none" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>
