@@ -1,13 +1,16 @@
 .wifiDetails {
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  height: 40px;
-  border: solid 1px #000000;
-  border-radius: var(--borderRadius);
-  padding: 1rem;
+  composes: connectButton from './Home.module.css';
+  border-color: #888888;
   gap: 1rem;
   font-size: 1rem;
+  background-color: #efefefef;
+  color: #333333;
+}
+
+.wifiDetails:hover {
+  color: #333333;
+  background-color: var(--themeHighlight);
+  border-color: var(--themeColor);
 }
 
 .selected {

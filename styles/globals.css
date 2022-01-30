@@ -16,21 +16,22 @@ a {
   box-sizing: border-box;
 }
 
+:root {
+  --borderRadius: 6px;
+
+  /* https://paletton.com/#uid=74N1q0kl1Wx1x+IcEXDsUWkWEVB */
+
+  --themeColor: #58D0F2;
+  --themeHighlight: #97E0F5;
+  --themeDark: #01BBEF;
+
+  --secondaryColor: #FFAC58;
+  --secondaryHighlight: #FFCD9A;
+  --secondaryDark: #FF8100;
+}
+
 input[type="text"] {
   font-size: 1rem;
-}
-
-/* https://paletton.com/#uid=13k0u0kwi++bu++hX++++rd++kX */
-:root {
-  --themeColor: #03EAFF;
-  --themeHighlight: #E2F9FB;
-  --themeDark: #005D66;
-  --borderRadius: 3px;
-}
-
-/* https://paletton.com/#uid=1550u0kw0w0jyC+oRxVy4oIDfjr */
-[data-theme='pink'] {
-  --themeColor: #C30083;
-  --themeHighlight: #FFA4E1;
-  --themeDark: #800056;
+  padding: .3rem .5rem;
+  border-radius: var(--borderRadius);
 }
